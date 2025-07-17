@@ -1,0 +1,27 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "spike_times": {
+        "type": "number"
+      },
+      "neuron_id": {
+        "type": "integer"
+      },
+      "neuron_type": {
+        "type": "string",
+        "enum": [
+          "E",
+          "I"
+        ]
+      }
+    },
+    "required": [
+      "spike_times",
+      "neuron_id",
+      "neuron_type"
+    ],
+    "additionalProperties": false
+  }
+}
