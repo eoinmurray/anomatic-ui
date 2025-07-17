@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "anomatic-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "bin": {
-    "frontend": "next dev --turbopack"
+    "anomatic-ui": "next dev --turbopack"
   },
   "dependencies": {
     "@observablehq/plot": "^0.6.17",
