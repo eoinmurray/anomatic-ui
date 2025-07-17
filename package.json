@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "bin": {
-    "anomatic-ui": "./run.js"
+    "anomatic-ui": "./run.ts"
   },
   "dependencies": {
     "@observablehq/plot": "^0.6.17",
